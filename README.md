@@ -25,23 +25,23 @@ Use the below steps to run Complete-SRM script.
 
 1 copy script and create dependent file file-list.txt.
 
-mkdir /root/complete-srm
-cd /root/complete-srm
-copy srm-latest.sh to /root/complete-srm folder
-create file file-list.txt and specify the folder path for SRM.
+mkdir /root/complete-srm<br>
+cd /root/complete-srm<br>
+copy srm-latest.sh to /root/complete-srm folder<br>
+create file file-list.txt and specify the folder path for SRM.<br>
 
 2 Run srm-latest.sh from the newly created screen, Make sure you are on the root
 
-screen -S Complete-srm
-sudo su -
-cd /root/complete-srm
-chmod +x srm-latest.sh
-./srm-latest.sh
+screen -S Complete-srm<br>
+sudo su -<br>
+cd /root/complete-srm<br>
+chmod +x srm-latest.sh<br>
+./srm-latest.sh<br>
 
 NOTE : DO NOT EXIT FROM THE SCRIPT UNTIL THE SCRIPT IS COMPLETE, YOU CAN DETACH THE SCREEN.
 
-After that, please enter 'complete-srm' for initiating SRM
-You will receive detailed information about SRM every minute after starting SRM, an example is mentioned below
+After that, please enter 'complete-srm' for initiating SRM<br>
+You will receive detailed information about SRM every minute after starting SRM, an example is mentioned below<br>
 
 <pr>
 SRM status 2022-04-25 12:08:05
