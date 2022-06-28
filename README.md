@@ -43,18 +43,8 @@ NOTE : DO NOT EXIT FROM THE SCRIPT UNTIL THE SCRIPT IS COMPLETE, YOU CAN DETACH 
 After that, please enter 'complete-srm' for initiating SRM<br>
 You will receive detailed information about SRM every minute after starting SRM, an example is mentioned below<br>
 
-<pr>
-SRM status 2022-04-25 12:08:05
 
-===================
-Total Disk to clean(SRM): 5164 MB
-Total Screen 35
+![image](https://user-images.githubusercontent.com/88960052/176163701-c6649810-7d4f-4aac-842c-5a330ccc27be.png)
 
-
-
-Pending Disk to clean(SRM): 4838 MB
-Pending Screen 27
-===================
-</pr>
 
 Finally, you will get the message 'SRM completed'
