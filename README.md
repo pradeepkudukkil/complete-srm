@@ -23,8 +23,8 @@ Each folder scans the script for its sub-inner folders and files and finds out w
 Use the below steps to run Complete-SRM script.
 ------------------
 
-1 copy script and create dependent file file-list.txt.
-https://github.com/pradeepkudukkil/complete-srm/blob/main/srm-latest.sh
+1 copy script and create dependent file file-list.txt.<br>
+Script : https://github.com/pradeepkudukkil/complete-srm/blob/main/srm-latest.sh
 mkdir /root/complete-srm<br>
 cd /root/complete-srm<br>
 copy srm-latest.sh to /root/complete-srm folder<br>
