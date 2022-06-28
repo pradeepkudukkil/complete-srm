@@ -1,0 +1,3 @@
+/backup
+/home
+/var/log
