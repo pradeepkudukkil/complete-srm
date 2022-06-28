@@ -19,3 +19,42 @@ example contents of file-list.txt
 /var/log<br>
 
 Each folder scans the script for its sub-inner folders and files and finds out which is the largest file and folder based on the value given in the script(lines 58 and 69). If the script receives a large file, the SRM will run on separate screen, so each file will run on a separate screen. This way we can speed up the SRM task, please use big folder size as more than 1000MB in script, here I am using 1000MB, if you use only a small size, the number of SRM tasks on the screen is increases, which creates load, please Use the best limit for your use case.
+
+Use the below steps to run Complete-SRM script.
+------------------
+
+1 copy script and create dependent file file-list.txt.
+
+mkdir /root/complete-srm
+cd /root/complete-srm
+copy srm-latest.sh to /root/complete-srm folder
+create file file-list.txt and specify the folder path for SRM.
+
+2 Run srm-latest.sh from the newly created screen, Make sure you are on the root
+
+screen -S Complete-srm
+sudo su -
+cd /root/complete-srm
+chmod +x srm-latest.sh
+./srm-latest.sh
+
+NOTE : DO NOT EXIT FROM THE SCRIPT UNTIL THE SCRIPT IS COMPLETE, YOU CAN DETACH THE SCREEN.
+
+After that, please enter 'complete-srm' for initiating SRM
+You will receive detailed information about SRM every minute after starting SRM, an example is mentioned below
+
+<pr>
+SRM status 2022-04-25 12:08:05
+
+===================
+Total Disk to clean(SRM): 5164 MB
+Total Screen 35
+
+
+
+Pending Disk to clean(SRM): 4838 MB
+Pending Screen 27
+===================
+</pr>
+
+Finally, you will get the message 'SRM completed'
